@@ -93,7 +93,7 @@ variable "deletion_protection" {
 }
 
 variable "publicly_accessible" {
-  default = false
+  default = true
 }
 
 variable "db_cluster_db_instance_parameter_group_name" {
